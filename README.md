@@ -44,7 +44,8 @@
   }
   ```
 
-* **Success Response:** <br />
+* **Success Response:**
+
   GET /posts
   * **Code:** 200 <br />
   ```
