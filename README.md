@@ -13,7 +13,7 @@
   
 *  **URL Params**
 
-   /users/{userId}
+   /users/{userId}  
    /posts/{postId}
 
 * **Data Params**
@@ -34,13 +34,14 @@
       }
     }
   }
+  ```
   Posts: ```
   {
     "title": "string",
     "body": "string",
     "userId": 0
   }
-  
+  ```
 
   
 
