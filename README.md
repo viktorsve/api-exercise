@@ -116,7 +116,6 @@ curl http://api.softhouse.rocks/posts/103 | jq
 }
 ```
 ```
-
 curl -X POST "http://api.softhouse.rocks/posts" -H "accept: application/json"
 -H "Content-Type: application/json" -d 
 "{\"title\":\"Hello\",\"body\":\"string\",\"userId\":93}" | jq
