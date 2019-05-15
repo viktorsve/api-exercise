@@ -98,6 +98,7 @@
 
 ```
 curl http://api.softhouse.rocks/posts/103 | jq
+
 {
   "_id": "5cdbcb17f4a0350020b4816a",
   "body": "Lakers suger ännu mer",
