@@ -4,29 +4,38 @@
 
 * **URL**
 
-  <_The URL Structure (path only, no root url)_>
+  /posts
+  /users
 
 * **Method:**
-  
-  <_The request type_>
 
-  `GET` | `POST` | `DELETE` | `PUT`
+  `GET` | `POST` | `DELETE` | `PUT` | `PATCH`
   
 *  **URL Params**
 
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
-
-   **Required:**
- 
-   `id=[integer]`
-
-   **Optional:**
- 
-   `photo_id=[alphanumeric]`
+   `/users/{userId}`
+   `/posts/{postId}`
 
 * **Data Params**
 
-  <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
+  users: 
+  {  
+    "name": "string",
+    "username": "string",
+    "email": "string",
+    "address": {
+      "street": "string",
+      "suite": "string",
+      "city": "string",
+      "zipcode": "string",
+      "geo": {
+        "lat": 0,
+        "lng": 0
+      }
+    }
+  }
+
+  
 
 * **Success Response:**
   
