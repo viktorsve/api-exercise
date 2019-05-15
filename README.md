@@ -1,4 +1,4 @@
-**API Exercie**
+**API Exercise**
 ----
 
 
