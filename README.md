@@ -34,8 +34,8 @@
       }
     }
   }
-  ```
-  Posts: ```
+  
+  Posts:
   {
     "title": "string",
     "body": "string",
