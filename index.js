@@ -5,7 +5,8 @@ const middleware = require('./middlewares');
 // environment variable PORT or 3000 if unset
 const port = process.env.PORT || 3000;
 
-
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 app.get("/users", (req, res) => {
   res.send( [{
