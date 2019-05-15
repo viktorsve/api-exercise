@@ -95,6 +95,12 @@
     
 * **Bugs:**
 
+```
+curl -X PATCH "http://api.softhouse.rocks/posts/1" -H "accept: application/json" -H 
+"Content-Type: application/json" -d "{\"title\":\"Hello\",\"body\":\"string\",\"userId\":0}" | jq
+
+parse error: Invalid numeric literal at line 1, column 7
+```
 * **Sample Call:**
 
 ```
