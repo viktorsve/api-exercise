@@ -47,7 +47,7 @@
 
   
 
-* **Success Response:**
+* **Success Response:** <br />
   GET /posts
   * **Code:** 200 <br />
   ```
@@ -60,7 +60,31 @@
         "_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
       }
     ]
-```
+  ```
+  <br />
+  GET /users
+  * **Code:** 200 <br />
+  ```
+  [
+    {
+      "name": "string",
+      "username": "string",
+      "email": "string",
+      "address": {
+        "street": "string",
+        "suite": "string",
+        "city": "string",
+        "zipcode": "string",
+        "geo": {
+          "lat": 0,
+          "lng": 0
+        }
+      },
+      "id": 0,
+      "_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ]
+  
 * **Error Response:**
 
   <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
