@@ -3,8 +3,8 @@
 
 * **URL**
 
-  /posts  
-  /users
+  http://api.softhouse.rocks/posts  
+  http://api.softhouse.rocks/users
 
 * **Method:**
 
