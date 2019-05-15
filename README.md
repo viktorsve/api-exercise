@@ -17,7 +17,7 @@
 
 * **Data Params**
 
-  ```
+ ```
   Users:
   {  
     "name": "string",
@@ -34,15 +34,15 @@
       }
     }
   }
-  ```
-  ```
+ ```
+ ```
   Posts: 
   {
     "title": "string",
     "body": "string",
     "userId": 0
   }
-  ```
+ ```
 
 * **Success Response:**
 
