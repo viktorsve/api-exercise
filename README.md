@@ -85,7 +85,7 @@
   
 * **Error Response:**
 
-  * **Code:** default
+  * **Code:** default  
     **Content:**
     ```
     {
