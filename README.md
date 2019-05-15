@@ -85,6 +85,7 @@
     }
   ]
   
+  
 * **Error Response:**
 
   <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
