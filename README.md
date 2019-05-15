@@ -18,7 +18,7 @@
 
 * **Data Params**
 
-  users: 
+  ```users: 
   {  
     "name": "string",
     "username": "string",
