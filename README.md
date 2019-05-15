@@ -18,7 +18,8 @@
 
 * **Data Params**
 
-  Users: ```
+  ```
+  Users:
   {  
     "name": "string",
     "username": "string",
@@ -34,7 +35,7 @@
       }
     }
   }
-  
+  ```
   ```
   Posts: 
   {
