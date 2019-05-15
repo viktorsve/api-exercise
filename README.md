@@ -44,8 +44,6 @@
   }
   ```
 
-  
-
 * **Success Response:** <br />
   GET /posts
   * **Code:** 200 <br />
@@ -93,6 +91,8 @@
       "code": 0,
       "message": "string"
     }
+    
+* **Bugs:**
 
 * **Sample Call:**
 
@@ -109,7 +109,15 @@ curl http://api.softhouse.rocks/posts/103 | jq
 }
 ```
 ```
-curl -X POST "http://api.softhouse.rocks/posts" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"title\":\"Hello\",\"body\":\"string\",\"userId\":93}"
 
-{"_id":"5cdbe197f4a0350020b48187","body":"string","title":"Hello","userId":93,"id":119,"__v":0}%
+curl -X POST "http://api.softhouse.rocks/posts" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"title\":\"Hello\",\"body\":\"string\",\"userId\":93}" | jq
+
+{
+  "_id": "5cdbe2c3f4a0350020b48188",
+  "body": "string",
+  "title": "Hello",
+  "userId": 93,
+  "id": 120,
+  "__v": 0
+}
 ```
