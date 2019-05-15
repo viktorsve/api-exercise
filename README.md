@@ -96,4 +96,14 @@
 
 * **Sample Call:**
 
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._>
+```
+curl http://api.softhouse.rocks/posts/103 | jq
+{
+  "_id": "5cdbcb17f4a0350020b4816a",
+  "body": "Lakers suger ännu mer",
+  "title": "Oskar suger",
+  "userId": 200,
+  "id": 103,
+  "__v": 0
+}
+```
