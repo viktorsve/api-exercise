@@ -47,7 +47,7 @@
 * **Success Response:**
 
   GET /posts
-  * **Code:** 200 <br />
+  * **Code:** 200
   ```
     [
       {
@@ -60,7 +60,7 @@
     ]
   ```
   GET /users
-  * **Code:** 200 <br />
+  * **Code:** 200
   ```
   [
     {
