@@ -4,7 +4,7 @@
 
 * **URL**
 
-  /posts
+  /posts  
   /users
 
 * **Method:**
