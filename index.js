@@ -9,7 +9,6 @@ const port = process.env.PORT || 3000;
 
 app.use("/", routes);
 
-
 app.use(middleware.notFound);
 
 // Start up server and begin listen to requests
